@@ -6,18 +6,18 @@
 ###### admin.site.site_title = ' your title '   
 ###### admin.site.index_title = ' your index title'  
 ---
-2-how to change appreance of  app names in admin panel :  
+2-how to change appearance of  app names in admin panel :  
 ###### go to apps.py :  
 ###### verbose_name ='your optional name ' 
 ---
 3-adding more information to tables in adminpanel :  
 ###### go to admin.py :  
-###### list_table  = ('id' ,'title' , 'date' , 'category')  
+###### list_display  = ('id' ,'title' , 'date' , 'category')  
 ---
 4-adding a external field to table :   
 ###### def get_author(self,current_record):
 ###### ....return  current_record.user.username
-###### list_table( 'get_author',)
+###### list_display( 'get_author',)
 ---
 
 5-how to do editable boolean fields as CHECK in table : ✔ ❌  
