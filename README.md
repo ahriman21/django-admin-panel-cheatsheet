@@ -17,6 +17,7 @@
 4-adding a external field to table :   
 ###### def get_author(self,current_record):
 ###### ....return  current_record.user.username
+###### get_author.short_description = 'author'
 ###### list_display( 'get_author',)
 ---
 
