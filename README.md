@@ -58,6 +58,5 @@
 
 ---
 
-11-add image to admin panel's table  
-###### field sets   
-###### show more information to users based on roles  
+11- how to display a empty-value-filed in table :
+###### empty_value_display = 'UNSET' 
